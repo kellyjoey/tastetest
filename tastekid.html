@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Media Search</title>
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+</head>
+
+<body>
+    <h1>Find Your Next Journey</h1>
+    <h2>Enter something you like to get similar recommendations</h2>
+    <section class='mainContainer'>
+        <form class='search'>
+            <div>
+                <input type='text' id='searchThing' placeholder='Enter one of your faves' />
+            </div>
+        </form>
+        <div class='samples'>
+            <h4>Sample Searches</h4>
+            <ul>
+                <li><a data-term='John Green' href='#' class='sampleLink'>John Green</a></li>
+                <li><a data-term='Rick Riordan' href='#' class='sampleLink'>Rick Riordan</a></li>
+                <li><a data-term='Redwall' href='#' class='sampleLink'>Redwall</a></li>
+                <li><a data-term='Little Women' href='#' class='sampleLink'>Little Women</a></li>
+            </ul>
+    </section>
+    <div id='search-results'></div>
+    
+    <div id="loading"></div>
+    <script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
+    <script src="tastekid.js"></script>
+</body>
+
+</html>
